@@ -1,0 +1,123 @@
+import type { Categoria, Plato } from "../types";
+
+export const platos: Plato[] = [
+  {
+    id: 1,
+    nombre: "Café con leche",
+    descripcion: "Café recién preparado con leche y un toque de azúcar.",
+    precio: 180,
+    categoria: "desayuno",
+  },
+  {
+    id: 2,
+    nombre: "Medialuna",
+    descripcion: "Medialuna recién horneada, ideal para el desayuno.",
+    precio: 140,
+    categoria: "desayuno",
+  },
+  {
+    id: 3,
+    nombre: "Tostado de jamón y queso",
+    descripcion: "Pan tostado con jamón, queso y tomate.",
+    precio: 260,
+    categoria: "desayuno",
+  },
+  {
+    id: 4,
+    nombre: "Chipá",
+    descripcion: "Chipá tradicional con queso semigraso y textura suave.",
+    precio: 170,
+    categoria: "desayuno",
+  },
+  {
+    id: 5,
+    nombre: "Milanesa con puré",
+    descripcion: "Milanesa napolitana con porción de puré de papa.",
+    precio: 620,
+    categoria: "almuerzo",
+  },
+  {
+    id: 6,
+    nombre: "Sándwich de pollo",
+    descripcion: "Sándwich con pollo, lechuga, tomate y mayonesa casera.",
+    precio: 420,
+    categoria: "almuerzo",
+  },
+  {
+    id: 7,
+    nombre: "Empanadas de carne",
+    descripcion: "Dos empanadas caseras con carne picada y condimentos.",
+    precio: 350,
+    categoria: "almuerzo",
+  },
+  {
+    id: 8,
+    nombre: "Ñoquis con salsa",
+    descripcion: "Porción generosa de ñoquis con salsa de tomate y queso.",
+    precio: 580,
+    categoria: "almuerzo",
+  },
+  {
+    id: 9,
+    nombre: "Agua mineral",
+    descripcion: "Botella de agua sin gas.",
+    precio: 120,
+    categoria: "bebidas",
+  },
+  {
+    id: 10,
+    nombre: "Gaseosa",
+    descripcion: "Botella de gaseosa de 500 ml.",
+    precio: 180,
+    categoria: "bebidas",
+  },
+  {
+    id: 11,
+    nombre: "Jugo de naranja",
+    descripcion: "Jugo natural de naranja exprimido.",
+    precio: 220,
+    categoria: "bebidas",
+  },
+  {
+    id: 12,
+    nombre: "Mate cocido",
+    descripcion: "Mate cocido clásico, servido bien caliente.",
+    precio: 160,
+    categoria: "bebidas",
+  },
+  {
+    id: 13,
+    nombre: "Galletitas dulces",
+    descripcion: "Paquete de galletitas para merienda.",
+    precio: 110,
+    categoria: "kiosco",
+  },
+  {
+    id: 14,
+    nombre: "Brownie",
+    descripcion: "Brownie de chocolate con porción generosa.",
+    precio: 200,
+    categoria: "kiosco",
+  },
+  {
+    id: 15,
+    nombre: "Papas fritas",
+    descripcion: "Porción de papas fritas para compartir o llevar.",
+    precio: 260,
+    categoria: "kiosco",
+  },
+  {
+    id: 16,
+    nombre: "Pancho",
+    descripcion: "Pancho simple con salsas y aderezo.",
+    precio: 290,
+    categoria: "kiosco",
+  },
+];
+
+export const categoriasValidas: Categoria[] = [
+  "desayuno",
+  "almuerzo",
+  "bebidas",
+  "kiosco",
+];
